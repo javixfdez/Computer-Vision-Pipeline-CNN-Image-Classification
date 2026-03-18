@@ -11,6 +11,10 @@ This project implements a robust **Convolutional Neural Network (CNN)** pipeline
 
 The project highlights the full machine learning lifecycle: from complex data preprocessing and **leakage prevention** to iterative architectural refinement.
 
+## Data
+The dataset was downloaded from 
+https://www.kaggle.com/datasets/aksha05/flower-image-dataset/data
+
 ## Key Architectural Features
 The final model outperformed baseline versions by implementing:
 - **Shortcut Connections (Residual Blocks):** Inline implementation where the output of the first convolution is stored and added to the second, mitigating the vanishing gradient problem.
